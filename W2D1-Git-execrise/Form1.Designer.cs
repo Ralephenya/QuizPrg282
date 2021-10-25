@@ -35,17 +35,18 @@ namespace W2D1_Git_execrise
             // 
             // ReadBtn
             // 
-            this.ReadBtn.Location = new System.Drawing.Point(339, 342);
+            this.ReadBtn.Location = new System.Drawing.Point(246, 335);
             this.ReadBtn.Name = "ReadBtn";
             this.ReadBtn.Size = new System.Drawing.Size(158, 63);
             this.ReadBtn.TabIndex = 0;
             this.ReadBtn.Text = "READ";
             this.ReadBtn.UseVisualStyleBackColor = true;
+            this.ReadBtn.Click += new System.EventHandler(this.ReadBtn_Click);
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(143, 36);
+            this.listBox1.Location = new System.Drawing.Point(45, 34);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(626, 251);
             this.listBox1.TabIndex = 1;
